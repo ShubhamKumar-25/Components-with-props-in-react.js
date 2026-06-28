@@ -4,6 +4,7 @@ import rohan from "./assets/rohan.jpg";
 import rahul from "./assets/rahul.jpg";
 import rohit from "./assets/rohit.jpg";
 import sagar from "./assets/sagar.jpg";
+import Liked from "./components/Liked";
 function App() {
   return (
     <div className="container">
@@ -23,6 +24,8 @@ function App() {
         img={rohit}
       />
       <UserCard name="Sagar Gupta" desc="I am a School Boy" img={sagar} />
+
+      <Liked />
     </div>
   );
 }
