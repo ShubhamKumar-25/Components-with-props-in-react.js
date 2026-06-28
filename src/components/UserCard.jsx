@@ -1,13 +1,13 @@
-import React from "react";
-// import myImg from "../assets/img.jpg";
 import "./UserCard.css";
 
-const UserCard = (props) => {
+const UserCard = ({ name, desc, img }) => {
   return (
     <div className="user-container">
-      <p id="user-name">{props.name}</p>
-      <img id="user-img" src={props.img} alt="image" />
-      <p id="user-decs">{props.desc}</p>
+      <p className="user-name">{name}</p>
+
+      <img className="user-img" src={img} alt={name} />
+
+      <p className="user-desc">{desc}</p>
     </div>
   );
 };
