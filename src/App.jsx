@@ -7,6 +7,7 @@ import rohit from "./assets/rohit.jpg";
 import sagar from "./assets/sagar.jpg";
 
 import Liked from "./components/Liked";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -38,9 +39,7 @@ function App() {
       <div className="feature-section">
         <Liked />
 
-        {/* Future */}
-        {/* <Counter /> */}
-        {/* <Todo /> */}
+        <Counter />
       </div>
     </div>
   );
