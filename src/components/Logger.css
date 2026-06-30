@@ -1,0 +1,30 @@
+.Logger-container {
+  display: flex;          
+  gap: 20px;              
+  justify-content: center;
+  align-items: center;    
+  margin-top: 40px;
+  flex-direction: row;    
+}
+
+.btn1{
+    color: white;
+    background-color: darkmagenta;
+    display: flex;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btnn2{
+    color: forestgreen;
+    background-color: white;
+    display: flex;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}

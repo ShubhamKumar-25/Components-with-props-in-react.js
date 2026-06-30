@@ -8,7 +8,7 @@ const Liked = () => {
     <div className="liked-container">
       <h1>This is my Like Button</h1>
 
-      <h2>{like ? "❤️ Like" : "🤍 Dislike"}</h2>
+      <h2>{like ? "❤️ Liked" : "🤍 Like"}</h2>
 
       <button className="like-btn" onClick={() => setLike(!like)}>
         Click

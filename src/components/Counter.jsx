@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Counter.css";
 
 const Counter = () => {
-  const [count, setCount] = useState(11);
+  const [count, setCount] = useState(0);
 
   return (
     <div className="counter-container">

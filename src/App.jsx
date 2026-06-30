@@ -8,6 +8,7 @@ import sagar from "./assets/sagar.jpg";
 
 import Liked from "./components/Liked";
 import Counter from "./components/Counter";
+import Logger from "./components/Logger";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Liked />
 
         <Counter />
+        <Logger />
       </div>
     </div>
   );
