@@ -41,7 +41,7 @@
   flex-direction: row;    /* ensure row layout */
 }
 
-.btn, .btn2 {
+.btn, .btn2, .btn3 {
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
@@ -57,4 +57,9 @@
 .btn2 {
   color: white;
   background-color: red;
+}
+
+.btn3 {
+  color: crimson;
+  background-color: burlywood;
 }
